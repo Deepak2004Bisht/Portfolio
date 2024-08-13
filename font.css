@@ -233,15 +233,23 @@ canvas {
   transition: right 0.2s ease-in-out;
 }
 
-@media (max-width: 650px) {
+/* @media (max-width: 650px) {
   .main-section .hero-section .hero-section-text .hero-content .right-arrow {
     display: none;
   }
-}
+} */
 
 @media (max-width: 650px) {
   .main-section .hero-section .hero-section-text .hero-content {
     margin-top: 1.2em;
+  }
+
+  .main-section .hero-section .hero-section-text .hero-content .right-arrow {
+    position: absolute;
+    top: 1%;
+    right: -29%;
+    -webkit-transition: right 0.2s ease-in-out;
+    transition: right 0.2s ease-in-out;
   }
 }
 
