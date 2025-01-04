@@ -15,5 +15,5 @@ The portfolio serves as a digital resume for showcasing my work as a Frontend De
 <br>
 <h2>Feel free to visit the website</h2>
 <h3>Portfolio link here:-
-👉<a href="https://deepakbisht.netlify.app/">Link</a>
+👉<a href="https://deepakbisht.netlify.app/" target="_blank">Link</a>
 </h3>
