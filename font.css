@@ -1256,6 +1256,7 @@ ul li .date{
   width: 20rem;
   background-color: var(--bg-card);
   border-radius: 1rem;
+  margin-bottom: 21px;
 }
 
 .image_container {
