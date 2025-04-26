@@ -778,7 +778,7 @@ canvas {
   display: inline-block;
   cursor: pointer;
   pointer-events: all;
-  left: 50%;
+  left: 45%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
   -webkit-transition: all 0.1s ease-in-out;
@@ -828,9 +828,21 @@ canvas {
   bottom: 1.75em;
 }
 
+@media (max-width: 991px){
+  .main-section .latest-works-link{
+    left: 43%;
+  }
+}
+
 @media (max-width: 650px) {
   .main-section {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 575px){
+  .main-section .latest-works-link{
+    left: 40%;
   }
 }
 
@@ -1959,3 +1971,19 @@ footer .social-links li a{
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Button of Latest work */
+.btn-pulse {
+  background-color: linear-gradient(to left, #1595b6, rgba(31, 38, 103, 0.9));
+  color: white;
+  animation: pulse 1.5s infinite;
+}
+
+
+@keyframes pulse {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 89, 182, 0.7); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(155, 89, 182, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(155, 89, 182, 0); }
+}
+
