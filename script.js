@@ -83,9 +83,3 @@ var swiper = new Swiper('.mySwiper', {
   },
 })
 
-var typed= new Typed(".auto-type", {
-  strings: ["Web Developer", "Frontend Developer", "Developer"],
-  typeSpeed: 50,
-  backSpeed: 50,
-  loop: true,
-})
