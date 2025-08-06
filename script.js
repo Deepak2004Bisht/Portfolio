@@ -54,7 +54,7 @@ blackLogo.addEventListener('click', (e) => {
 
 // window.scrollTo(0,document.body.scrollHeight);
 
-// new GitHubCalendar('.calendar', 'anuragsinghbam', {
+// new GitHubCalendar('.calendar', 'deepak', {
 //   responsive: true,
 //   tooltips: true,
 // })
